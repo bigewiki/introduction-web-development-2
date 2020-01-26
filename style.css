@@ -14,9 +14,10 @@ body {
 }
 
 .flex-container {
-  width: 100%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  padding: 20px;
 }
 
 footer {
@@ -26,4 +27,68 @@ footer {
 
 #validator {
   padding: 5px;
+}
+
+.card {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+#endeavour-img {
+  width: 300px;
+  float: right;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  margin: 5px;
+}
+
+h1 {
+  color: teal;
+}
+
+table {
+  width: 100%;
+  border-spacing: 10px;
+}
+
+.td-card {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+.td-card:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#red-td {
+  background-color: #ff7070;
+}
+
+#green-td {
+  background-color: #99d699;
+}
+
+#yellow-td {
+  background-color: #fff68f;
+}
+
+#orange-td {
+  background-color: #ff9046;
+}
+
+#pink-td {
+  background-color: #e5acb6;
+}
+
+#blue-td {
+  background-color: #a4d3ff;
 }

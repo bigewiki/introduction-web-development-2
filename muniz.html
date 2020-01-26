@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Edward Muniz</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="dcterms.rightsHolder" content="Edward M." />
+    <meta name="dcterms.dateCopyrighted" content="2020" />
+    <meta name="description" content="Web dev 2 introduction" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script></script>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="card">
+        <h1>CIS233DA Web Development II - Introduction</h1>
+        <p>January 26, 2020</p>
+        <p>
+          Hello class, I'm<span style="background-color:#FFFCDD">
+            Edward Muniz
+          </span>
+          . I'm a father to a 7-year-old daughter and a husband. My wife and I
+          will celebrate our first wedding anniversary in March! Below I've
+          added a picture of me and my little one in front of the Endeavour
+          shuttle at the California Science Center in Los Angeles.
+        </p>
+        <p>
+          <a href="endeavour.jpg" target="_blank"
+            ><img src="endeavour.jpg" id="endeavour-img"
+          /></a>
+          I'm studying Web Development and aspiring to be become a front-end
+          developer. I work in the field for a web hosting company. My
+          department mostly deals with website migrations for customers moving
+          their websites to us or between accounts. Currently, I'm working with
+          a development team to automate some of the easy work and make life
+          easier for our customers. My role is build an API (application
+          programming interface) to support some of the moving pieces. Think of
+          an API as a channel of communication between two things such as a
+          user-interface and a database.
+        </p>
+        <p>
+          My journey has earned me a bit of experience with Javascript, ReactJS,
+          Linux, Bash Scripting, MySQL, PHP, and WordPress.
+        </p>
+        <p>
+          I'm confident I'll learn a lot from this class that I can apply to my
+          work. I can benefit from learning more about the design/planning
+          process, best practices, accessibility, and overall leveling up my
+          ability to apply HTML and CSS.
+        </p>
+        <p>
+          I'll share with everyone a WordPress site I built a while back for my
+          Psychology 101 final:
+          <a href="https://dont.psycho-analyze.me/" target="_blank"
+            >dont.psycho-analyze.me</a
+          >. Using WordPress isn't as code intensive as writing raw HTML and CSS
+          (though in some parts I did) and programming everything to behave
+          correctly. The site might look nice (at least I think so) it's mostly
+          because of the tools under WordPress that I used to do it and some
+          takeaways from building a few sites with our design team.
+        </p>
+        <p>
+          If you aren't familiar with WordPress I suggest checking it out! It's
+          very popular, fairly easy to use, and open source. WordPress controls
+          <a
+            href="https://w3techs.com/technologies/history_overview/content_management/all"
+            target="_blank"
+            >a third of the web</a
+          >. I go to the local, annual WordCamp every year. They host one in
+          practically every major city.
+        </p>
+        <p>
+          I'm a novice wood worker, most of what I build is made of 2x4s and
+          serves as patio furniture. I'm leveling up to build nicer furniture
+          that I won't be embarrassed to have indoors. Because I love building I
+          also enjoy starting new projects to apply whatever new language,
+          library, or concept I'm learning, I sometimes even
+          <i>finish</i> these projects!
+        </p>
+        <p>
+          I enjoy PC games as well, though I try and keep my gaming casual for
+          the sake of having the time for adulting and school. Ideally I would
+          kick this habit but I may sneak in a game of Starcraft II when my wife
+          isn't looking. I recently got into playing DND with a group of
+          coworkers. We try and meet every other week or so
+          <a
+            href="https://i.pinimg.com/originals/f9/c6/04/f9c604d3cc316995aeec6fe30963d33f.jpg"
+            target="_blank"
+            >depending on our schedules</a
+          >.
+        </p>
+        <table>
+          <tr>
+            <td class="td-card" id="red-td">
+              <strong>HOBBIES</strong>: Woodworking, Programming/Web
+              Development, Games, DND
+            </td>
+            <td class="td-card" id="green-td">
+              <strong>FOODS</strong>: Mexican, Pizza, Chinese, Sushi
+            </td>
+            <td class="td-card" id="yellow-td">
+              <strong>MOVIES/SHOWS</strong>: Star Wars (The Mandelorian, most of
+              the movies), Marvel (Avengers, Iron Man, Spider Man, Guardians of
+              the Galaxy), Lost in Space, Game of Thrones, etc.
+            </td>
+          </tr>
+          <tr>
+            <td class="td-card" id="orange-td">
+              <strong>TRAVEL</strong>: Where my family lives
+            </td>
+            <td class="td-card" id="pink-td">
+              <strong>MAJOR</strong>: Web Development
+            </td>
+            <td class="td-card" id="blue-td">
+              <strong>TECHNOLOGIES</strong>: HTML, CSS, Javascript, JQuery,
+              ReactJS, PHP, MySQL, Bash, WordPress, Linux
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <footer>
+      <div id="validator"></div>
+      <script>
+        const domain = window.location.href.split("/")[2];
+        if (domain === "muniz.dev" || domain === "www.muniz.dev") {
+          document.getElementById(
+            "validator"
+          ).innerHTML = `<a href="http://validator.w3.org/nu/?doc=${window.location.href}" target="_blank">HTML 5 Validation</a>`;
+        }
+      </script>
+    </footer>
+  </body>
+</html>
